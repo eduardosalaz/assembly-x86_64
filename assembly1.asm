@@ -17,3 +17,5 @@ pop ax
 ; 0x0e is a BIOS interrupt to move the cursor next to the thing you printed
 ; 0x10 is a BIOS interrupt that prints stuff to the screen
 ; in vim you must type %!xxd to enter hex mode to read the binaries
+; nasm -fbin filename.asm -o targetfile.bin
+; qemu-system-x86_64 targetfile.bin
