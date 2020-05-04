@@ -1,7 +1,7 @@
 ; mov destination, source/value
 mov eax, 13
 add eax, 10
-; eax register is 23
+; eax register now holds the value of 23, eax is a 32 bits register
 push ax
 mov ax, 0xe4
 ; do something
