@@ -13,4 +13,4 @@ vim, nasm, qemu, g++
 the reason the magic number 0xaa55 is used to tell the machine to boot the current file is because the value
 in binary of that number is 1010101001010101
 
-This serves as a protection against drive or controller failures. Besides, it serves to identify endianness of the current system
+This alternating pattern serves as a protection against drive or controller failures. Besides, it serves to identify endianness of the current system
